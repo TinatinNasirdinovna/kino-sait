@@ -1,0 +1,42 @@
+@import "./assets/styles/Header.scss";
+@import "./assets/styles/Footer.scss";
+@import "./assets/styles/Home.scss";
+@import "./assets/styles/Popular.scss";
+@import "./assets/styles/TopRated.scss";
+@import "./assets/styles/MovieCard.scss";
+@import "./assets/styles/MovieDetails.scss";
+@import "./assets/styles/Actors.scss";
+@import "./assets/styles/Video.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+@media (max-width: 1020px) {
+  .container {
+    width: 90%;
+  }
+}

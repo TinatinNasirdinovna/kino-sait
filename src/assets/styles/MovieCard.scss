@@ -1,0 +1,92 @@
+.movieCard {
+    width: 20%;
+    height: 560px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    img {
+        width: 100%;
+        transition: .6s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    h2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .movieCard {
+        height: 420px;
+        h2 {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 1160px) {
+    .movieCard {
+        height: 390px;
+        width: 28%;
+        img {
+            height: 79%;
+        }
+        h2 {
+            font-size: 17px;
+        }
+        h4 {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 990px) {
+    .movieCard {
+        width: 28%;
+        height: 400px;
+        img {
+            height: 80%;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .movieCard {
+        width: 45%;
+        height: 430px;
+        img {
+            height: 80%;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .movieCard {
+        width: 46%;
+        height: 360px;
+        img {
+            height: 80%;
+        }
+        h2 {
+            font-size: 15px;
+        }
+        h4 {
+            font-size: 11px;
+        }
+    }
+}
+@media (max-width: 410px) {
+    .movieCard {
+        width: 44%;
+        height: 250px;
+        img {
+            height: 70%;
+        }
+        h2 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        h4 {
+            font-size: 10px;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+#actor {
+    padding: 50px 0;
+    .actor {
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 50px;
+       &--card {
+        text-align: center;
+        padding: 20px 0;
+        width: 200px;
+        height: 400px;
+        img {
+            width: 200px;
+            height: 300px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+       }    
+    }
+}
+
+@media (max-width: 900px) {
+    #actor {
+        .actor {
+            gap: 40px;
+          &--card {
+            width: 180px;
+          }
+        }
+    }
+}
+@media (max-width: 600px) {
+    #actor {
+        padding: 20px 0;
+        h2 {
+            font-size: 19px;
+        }
+        .actor {
+            gap: 20px;
+          &--card {
+            width: 100px;
+            height: 220px;
+            img {
+                width: 100px;
+                height: 140px;
+            }
+            h3 {
+                font-size: 12px;
+                margin-top: 8px;
+            }
+          }
+        }
+    }
+}
